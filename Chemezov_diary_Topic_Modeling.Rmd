@@ -315,7 +315,7 @@ ggplot(data = doc_gamma.df, aes(x = document, y = gamma, group = factor(topic), 
 
 ```{r}
 ggplot(data = doc_gamma.df, aes(x = document, y = gamma, group = factor(topic), color = factor(topic)))+
-  geom_col(alpha = 0.4)+
+  geom_col(alpha = 0.3)+
   facet_wrap(~factor(topic), ncol = 1)+
   theme(axis.text.x = element_text(angle=90))+
   geom_smooth(colour = "magenta", method = "auto", se = FALSE, linetype = 1, size = 1, alpha = 0.9)
