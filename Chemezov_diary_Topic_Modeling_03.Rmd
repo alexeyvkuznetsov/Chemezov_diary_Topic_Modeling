@@ -80,7 +80,7 @@ write.csv2(df2, "diary3.csv", fileEncoding = "UTF-8")
 DDF <- read.csv2("diary3.csv", fileEncoding = "UTF-8")
 
 
-conl <- read.csv2("greek-nt.conll")
+#conl <- read.csv2("greek-nt.conll")
 
 ```
 
