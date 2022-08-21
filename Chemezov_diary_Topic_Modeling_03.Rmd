@@ -15,7 +15,7 @@ rm(list=ls(all=T))
 ## Устанавливаем рабочую директорию. Глобальные настройки.
 
 ```{r}
-setwd("C:/GitHub/Chemezov_diary_Topic_Modeling/")
+setwd("D:/GitHub/Chemezov_diary_Topic_Modeling/")
 
 options(stringsAsFactors = F)
 
@@ -78,6 +78,9 @@ df2 <- data.frame(extracted_texts$docvar1, ddff$diary_corpus)
 colnames(df2) <- c("doc", "text")
 write.csv2(df2, "diary3.csv", fileEncoding = "UTF-8")
 DDF <- read.csv2("diary3.csv", fileEncoding = "UTF-8")
+
+
+conl <- read.csv2("greek-nt.conll")
 
 ```
 
