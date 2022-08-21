@@ -6,3 +6,5 @@ https://search.r-project.org/CRAN/refmans/udpipe/html/udpipe_read_conllu.html
 x <- udpipe_read_conllu(file_conllu)
 head(x)
 
+
+x <- udpipe_read_conllu("greek-nt.conll")

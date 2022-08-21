@@ -82,6 +82,8 @@ DDF <- read.csv2("diary3.csv", fileEncoding = "UTF-8")
 
 #conl <- read.csv2("greek-nt.conll")
 
+x <- udpipe_read_conllu("greek-nt.conll")
+
 ```
 
 ## Аннотация корпуса
