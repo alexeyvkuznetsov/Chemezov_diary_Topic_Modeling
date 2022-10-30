@@ -15,6 +15,10 @@ x <- udpipe_read_conllu("greek-nt.conll")
 
 https://github.com/Living-with-machines/histLM
 
+https://juliasilge.com/blog/
+
+
+Data
 https://colab.research.google.com/notebooks/io.ipynb#scrollTo=r5X77CZ5_G-C
 
 
