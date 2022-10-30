@@ -76,9 +76,10 @@ diary_corpus <- quanteda::corpus(extracted_texts$text, docnames = extracted_text
 ddff <- data.frame(diary_corpus, fileEncoding = "UTF-8")
 df2 <- data.frame(extracted_texts$docvar1, ddff$diary_corpus) 
 colnames(df2) <- c("doc", "text")
-write.csv(df2, "diary5.csv", fileEncoding = "UTF-8")
-DDF <- read.csv2("diary5.csv", fileEncoding = "UTF-8")
+write.csv(df2, file = "diary5.csv", fileEncoding = "UTF-8")
+DDF <- read.csv("diary5.csv", fileEncoding = "UTF-8")
 
+write.table(df2, "diary6.txt", fileEncoding = "UTF-8", sep=";")
 
 #conl <- read.csv2("greek-nt.conll")
 
