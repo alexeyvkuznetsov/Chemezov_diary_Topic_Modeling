@@ -52,8 +52,8 @@ extracted_texts = readtext(data_files, text_field = "texts", encoding = "UTF-8",
 
 df = data.frame(extracted_texts$docvar1, extracted_texts$text) 
 colnames(df) <- c("doc", "text")
-write.csv2(df, "diary2.csv", fileEncoding = "UTF-8")
-DDF <- read.csv2("diary2.csv", fileEncoding = "UTF-8")
+write.csv2(df, "diary4.csv", fileEncoding = "UTF-8")
+DDF <- read.csv2("diary4.csv", fileEncoding = "UTF-8")
 DDF$text <- gsub("<U+FEFF>", "", DDF$text)
 #library(dplyr)
 #write.csv(extracted_texts, "diary.csv")
@@ -73,11 +73,11 @@ extracted_texts$text <- gsub("[A-Za-z]", "", extracted_texts$text)
 diary_corpus <- quanteda::corpus(extracted_texts$text, docnames = extracted_texts$docvar)
 
 #-----
-ddff <- data.frame(diary_corpus)
+ddff <- data.frame(diary_corpus, fileEncoding = "UTF-8")
 df2 <- data.frame(extracted_texts$docvar1, ddff$diary_corpus) 
 colnames(df2) <- c("doc", "text")
-write.csv2(df2, "diary3.csv", fileEncoding = "UTF-8")
-DDF <- read.csv2("diary3.csv", fileEncoding = "UTF-8")
+write.csv(df2, "diary5.csv", fileEncoding = "UTF-8")
+DDF <- read.csv2("diary5.csv", fileEncoding = "UTF-8")
 
 
 #conl <- read.csv2("greek-nt.conll")
