@@ -28,3 +28,5 @@ https://www.theanalyticslab.nl/nlpblogs_1_identifying_topics_using_topic_-modeli
 https://bookdown.org/joone/ComputationalMethods/topicmodeling.html#topic-modeling-mit-stm
 
 https://rpubs.com/jojoecp/643113
+
+https://github.com/ccs-amsterdam/r-course-material/blob/master/tutorials/r_text_lda.md
