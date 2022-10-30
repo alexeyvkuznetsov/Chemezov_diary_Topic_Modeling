@@ -1,4 +1,7 @@
 
+Corpus Searches in R
+https://adrianapicoral.com/crow_workshop_02/index.html
+
 
 
 https://search.r-project.org/CRAN/refmans/udpipe/html/udpipe_read_conllu.html
