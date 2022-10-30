@@ -11,3 +11,16 @@ head(x)
 
 
 x <- udpipe_read_conllu("greek-nt.conll")
+
+
+https://github.com/Living-with-machines/histLM
+
+https://colab.research.google.com/notebooks/io.ipynb#scrollTo=r5X77CZ5_G-C
+
+
+NB
+https://www.theanalyticslab.nl/nlpblogs_1_identifying_topics_using_topic_-modeling_lda/
+
+https://bookdown.org/joone/ComputationalMethods/topicmodeling.html#topic-modeling-mit-stm
+
+https://rpubs.com/jojoecp/643113
