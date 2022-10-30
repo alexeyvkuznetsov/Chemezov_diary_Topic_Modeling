@@ -20,6 +20,7 @@ https://juliasilge.com/blog/
 
 Data
 https://colab.research.google.com/notebooks/io.ipynb#scrollTo=r5X77CZ5_G-C
+https://machinelearningmastery.ru/3-ways-to-load-csv-files-into-colab-7c14fcbdcb92/
 
 
 NB
