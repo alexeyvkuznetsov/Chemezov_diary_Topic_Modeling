@@ -30,3 +30,4 @@ https://bookdown.org/joone/ComputationalMethods/topicmodeling.html#topic-modelin
 https://rpubs.com/jojoecp/643113
 
 https://github.com/ccs-amsterdam/r-course-material/blob/master/tutorials/r_text_lda.md
+https://github.com/ccs-amsterdam/r-course-material/blob/master/tutorials/r_text_stm.md
